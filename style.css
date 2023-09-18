@@ -1,49 +1,57 @@
-
-.main_text1{color:white; font-size:40px;text-align: center;margin-top:50px ;margin-left:40px}
-.touch1{color:white; margin-top:65px;margin-left:320px}
-.touch2{color:white;margin-top:65px;margin-left:160px}
-
-.logo{
- width:114px;
-height:90px;
-margin-left:80px;
-margin-top:30px
-}
-.background1{
- width:100%;
- padding-bottom:150px; 
- display:inline-flex;
+*{
+    margin: 0 auto;
 }
 
-.header{
-    margin-left:0;
-    padding:0;
+header{
+    background: url("img/background_pic.png") center no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 150px;
-    background-color:black;
-    display:inline-flex;
-    position:fixed;
+    height: 100vh;
+    /*display: inline-flex;*/
 }
-.text1{
-    color:white;
-    position:absolute;
-    margin-top:200px;
-    margin-left:238px;
-    display:inline-flex;
+
+nav{
+    background: rgba(0, 0, 0, 0.7);
 }
-.text2{
-    color:white;
-    position:absolute;
-    margin-top:240px;
-    margin-left:238px;
-    display:inline-flex;
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 30px;
 }
-.text3{
-    color:white;
-    position:absolute;
-    margin-top:290px;
-    margin-left:238px;
+
+.container{
+    width: 100%;
+
 }
-.sect{
+
+.logo-and-name{
+    margin-left: 10px;
+    display: inline-flex;
+
+}
+
+.links-on-header{
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.main_text1{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.main_text{
+}
+
+.text1, .text3{
+    color: #fff;
+    text-align: left;
 
 }
