@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    
 }
 
 header{
@@ -8,10 +9,11 @@ header{
     width: 100%;
     height: 100vh;
     /*display: inline-flex;*/
+    position: relative;
 }
 
 nav{
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0);
 }
 
 a{
@@ -22,12 +24,13 @@ a{
 }
 
 .container{
-    width: 100%;
-
+    min-width:100%;
+    min-height:200px;
+    padding:0;
 }
 
 .logo-and-name{
-    margin-left: 10px;
+    margin-left: 50px;
     display: inline-flex;
 
 }
@@ -48,6 +51,7 @@ a{
 }
 
 .main_text{
+    margin-left: 175px;
 }
 
 .text1, .text3{
